@@ -115,7 +115,7 @@ const Timeline = () => {
       </CarouselButtons>
       <SocialContainer>
 
-      <SocialIcons href="https://drive.google.com/file/d/1wRjdnFIedc0-K7rnUXE1TlnpiVvW4Bff/view?usp=sharing">
+      <SocialIcons target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1wRjdnFIedc0-K7rnUXE1TlnpiVvW4Bff/view?usp=sharing">
           <AiFillFilePdf size="3rem" /> 
         </SocialIcons>
         &nbsp;<a href="https://drive.google.com/file/d/1wRjdnFIedc0-K7rnUXE1TlnpiVvW4Bff/view?usp=sharing" target="_blank" rel="noopener noreferrer" style={{ color: 'white' }}>
