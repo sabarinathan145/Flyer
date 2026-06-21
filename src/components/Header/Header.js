@@ -22,7 +22,7 @@ const Header = () =>  (
       </li>
       <li>
         <Link href="#tech">
-          <NavLink>Technologies</NavLink>
+          <NavLink>Profession</NavLink>
         </Link>
       </li>        
       <li>
@@ -35,7 +35,7 @@ const Header = () =>  (
         <SocialIcons href="https://github.com/sabarinathan145">
           <AiFillGithub size="3rem" />
         </SocialIcons>
-        <SocialIcons href="https://www.linkedin.com/in/sabari-nathan-1252a11b0/">
+        <SocialIcons href="https://www.linkedin.com/in/sabarinathan-k-s/">
           <AiFillLinkedin size="3rem" />
         </SocialIcons>
         <SocialIcons href="https://www.instagram.com/rishi_sabari/">

@@ -45,9 +45,9 @@ const Timeline = () => {
 
   return (
     <Section id="about">
-      <SectionTitle>About Me</SectionTitle>
+      <br></br>
+      <SectionTitle>TimeLine</SectionTitle>
       <SectionText>
-      I'm a person with extreme determination and self-possession to conclude the task as a smart worker; team player; Responsible; Interdependent; self-disciplined; Multi-tasker; Knowledge searcher; and one who with extreme conviction on technology.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
@@ -115,12 +115,14 @@ const Timeline = () => {
       </CarouselButtons>
       <SocialContainer>
 
-      <SocialIcons href="https://drive.google.com/file/d/10DAwwYN7syvvCGT6HPfsK2B9oFXiE_Iv/view?usp=sharing">
+      <SocialIcons href="https://drive.google.com/file/d/1wRjdnFIedc0-K7rnUXE1TlnpiVvW4Bff/view?usp=sharing">
           <AiFillFilePdf size="3rem" /> 
         </SocialIcons>
-        &nbsp; RESUME
-        </SocialContainer>
-        <br/>
+        &nbsp;<a href="https://drive.google.com/file/d/1wRjdnFIedc0-K7rnUXE1TlnpiVvW4Bff/view?usp=sharing" target="_blank" rel="noopener noreferrer" style={{ color: 'white' }}>
+          RESUME
+        </a>
+      </SocialContainer>
+      <br/>
       <SectionDivider />
   </Section>
   );

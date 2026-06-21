@@ -12,10 +12,9 @@ const Projects = () => (
       {projects.map((p, i) => {
         return (
           <BlogCard key={i}>
-          <Img src={p.image} />
-          <TitleContent>
-                <HeaderThree title="true">{p.title}</HeaderThree>
-                <Hr />
+            <TitleContent>
+              <HeaderThree title="true">{p.title}</HeaderThree>
+              <Hr />
             </TitleContent>
             <CardInfo className="card-info">{p.description}</CardInfo>
             <div>
@@ -26,10 +25,17 @@ const Projects = () => (
                 })}
               </TagList>
             </div>
-            <UtilityList>
-              <ExternalLinks href={p.visit}>Live</ExternalLinks>
-              <ExternalLinks href={p.source}>Source</ExternalLinks>
-            </UtilityList>
+            {i === 0 && (
+              <UtilityList>
+                <ExternalLinks href={p.experienceLetter}>Experience Letter</ExternalLinks>
+              </UtilityList>
+            )}
+            {i !== 0 && (
+              <UtilityList>
+                <ExternalLinks href={p.visit}>Live</ExternalLinks>
+                <ExternalLinks href={p.source}>Source</ExternalLinks>
+              </UtilityList>
+            )}
           </BlogCard>
         );
       })}

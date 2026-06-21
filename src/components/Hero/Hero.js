@@ -10,7 +10,7 @@ const Hero = (props) => (
          Sabarinathan K S 
         </SectionTitle>
         <SectionText>
-        A Detail-Oriented Engineering graduate, pursuing to ameliorate proficiency,in the branch of knowledge domain. Highly proficient, IT student, organized professionals with ingenious attitude and vigorous project administrating capability.
+        Backend Software Engineer with 3 years building scalable cloud-native microservices and REST APIs for healthcare platforms. Skilled in distributed systems, SQL/NoSQL, and Azure DevOps CI/CD; supported 100,000+ member records and earned Rookie of the Year 2025 for integration excellence.
         </SectionText>
       </LeftSection>
     </Section>
