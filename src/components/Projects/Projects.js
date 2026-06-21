@@ -27,13 +27,13 @@ const Projects = () => (
             </div>
             {i === 0 && (
               <UtilityList>
-                <ExternalLinks href={p.experienceLetter}>Experience Letter</ExternalLinks>
+                <ExternalLinks href={p.experienceLetter} target="_blank" rel="noopener noreferrer">Experience Letter</ExternalLinks>
               </UtilityList>
             )}
             {i !== 0 && (
               <UtilityList>
-                <ExternalLinks href={p.visit}>Live</ExternalLinks>
-                <ExternalLinks href={p.source}>Source</ExternalLinks>
+                <ExternalLinks href={p.visit} target="_blank" rel="noopener noreferrer">Live</ExternalLinks>
+                <ExternalLinks href={p.source} target="_blank" rel="noopener noreferrer">Source</ExternalLinks>
               </UtilityList>
             )}
           </BlogCard>
