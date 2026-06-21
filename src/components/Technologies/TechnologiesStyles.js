@@ -131,3 +131,119 @@ export const ListIcon = styled.img`
     margin-bottom: 0px;
   }
 `
+
+export const ExperienceText = styled.p`
+  font-size: 18px;
+  text-align: justify;
+  line-height: 28px;
+  color: rgba(255, 255, 255, 0.9);
+  max-width: 900px;
+  margin-bottom: 1rem;
+
+  @media ${props => props.theme.breakpoints.md} {
+    font-size: 17px;
+    line-height: 26px;
+  }
+
+  @media ${props => props.theme.breakpoints.sm} {
+    font-size: 16px;
+    line-height: 24px;
+  }
+`
+
+export const ExperienceHeading = styled.p`
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 30px;
+  background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  max-width: 900px;
+  margin-bottom: 0.75rem;
+
+  @media ${props => props.theme.breakpoints.md} {
+    font-size: 19px;
+    line-height: 28px;
+  }
+
+  @media ${props => props.theme.breakpoints.sm} {
+    font-size: 18px;
+    line-height: 26px;
+  }
+`
+
+export const ExperienceList = styled.ul`
+  text-align: justify;
+  list-style-type: disc;
+  padding-left: 1.2rem;
+  margin: 0 0 1rem 0;
+  max-width: 900px;
+`
+
+export const ExperienceListItem = styled.li`
+  margin-bottom: 0.85rem;
+  font-size: 18px;
+  line-height: 28px;  
+  text-align: justify;
+  color: rgba(255, 255, 255, 0.9);
+  position: relative;
+  padding-left: 1.5rem;
+
+  &::before {
+    content: '▸';
+    position: absolute;
+    left: 0;
+    color: #13ADC7;
+    font-weight: bold;
+  }
+
+  @media ${props => props.theme.breakpoints.md} {
+    font-size: 17px;
+    line-height: 26px;
+  }
+
+  @media ${props => props.theme.breakpoints.sm} {
+    font-size: 16px;
+    line-height: 24px;
+  }
+`
+
+export const TechList = styled.div`
+  display: grid;
+  grid-template-columns: repeat(4, minmax(120px, 1fr));
+  gap: 16px;
+  margin-bottom: 1.5rem;
+
+  @media ${props => props.theme.breakpoints.md} {
+    grid-template-columns: repeat(3, minmax(120px, 1fr));
+  }
+
+  @media ${props => props.theme.breakpoints.sm} {
+    grid-template-columns: repeat(2, minmax(120px, 1fr));
+  }
+`
+
+export const TechItem = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 12px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+`
+
+export const TechIcon = styled.div`
+  font-size: 24px;
+  margin-bottom: 8px;
+  color: #00bcd4;
+`
+
+export const TechLabel = styled.span`
+  font-size: 13px;
+  line-height: 18px;
+  color: rgba(255, 255, 255, 0.85);
+  font-weight: 500;
+`
+
