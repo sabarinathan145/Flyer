@@ -21,13 +21,13 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <SocialContainer>
-          <SocialIcons href="https://github.com/sabarinathan145">
+          <SocialIcons href="https://github.com/sabarinathan145" target="_blank" rel="noopener noreferrer">
             <AiFillGithub size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://www.linkedin.com/in/sabarinathan-k-s/">
+          <SocialIcons href="https://www.linkedin.com/in/sabarinathan-k-s/" target="_blank" rel="noopener noreferrer">
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://www.instagram.com/rishi_sabari">
+          <SocialIcons href="https://www.instagram.com/rishi_sabari" target="_blank" rel="noopener noreferrer">
             <AiFillInstagram size="3rem" />
           </SocialIcons>
         </SocialContainer>
